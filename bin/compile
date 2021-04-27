@@ -25,3 +25,5 @@ source "$BIN_DIR/java"
 
 # Install JDK
 install_java_with_overlay "${BUILD_DIR}" "${CACHE_DIR}"
+
+java -version
